@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgba(72, 163, 0, 0.07);
+    font-family: "Poppins", serif;
+}
+
+.main-conatiner{
+    width: 660px;
+    margin: 20px auto;
+}
+.main-conatiner h1{
+    font-weight: bold;
+    font-size: 60px;
+    color: #48A300;
+    text-align: center;
+    margin: 40px 0px;
+}
+.main-conatiner h1 span{
+    color: #61481C;
+}
+
+.todo-box{
+    background-color: #FBFBFB;
+    padding: 30px 42px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+
+h2{
+    font-weight: bold;
+    font-size: 32px;
+    margin-bottom: 36px;
+    margin-right: 10px;
+}
+
+h2 img{
+    vertical-align: middle;
+}
+
+h5{
+    color: #858585;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 18px;
+}
+
+.progress-bar{
+    background-color: rgba(72, 163, 0, 0.1);
+    width: 100%;
+    border-radius: 15px;
+    height: 30px;
+    margin-bottom: 18px;
+}
+.progress-value{
+    width: 0%;
+    border-radius: 15px;
+    height: 30px;
+    background-color: #48A300;
+}
+
+.progress-text{
+    color: #EEFFE0;
+    font-weight: 500;
+    font-size: 11px;
+    padding-left: 20px;
+    padding-top: 8px;
+}
+.error-text{
+    color: #FF5151;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    display:none;
+}
+
+.todo-list{
+     padding: 0px 22px;
+     display: flex;
+     align-items: center;
+     background-color: #fff;
+     border-radius: 17px;
+     -webkit-border-radius: 17px;
+     -moz-border-radius: 17px;
+     -ms-border-radius: 17px;
+     -o-border-radius: 17px;
+     margin-bottom: 46px;
+     height: 82px;
+     filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.1));
+     -webkit-filter: drop-shadow(0px 0px 8px rgba(0, 0, 0, 0.1));
+}
+
+.checkbox{
+    width: 24px;
+    height: 24px;
+    border: 2px solid #48A300;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    cursor: pointer;
+}
+
+input{
+    width: 100%;
+    height: 100%;
+    margin-left: 15px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+input::placeholder{
+    color: #D9D9D9;
+    font-weight: 500;
+    font-size: 16px;
+}
+.quote-text{
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.last-text{
+    font-weight: 500;
+    color: #858585;
+    font-size: 15px;
+    margin-top: 50px;
+    display: inline-block;
+width: 100%;
+text-align: center;
+}
+
+.checkbox img{
+    display: none;
+    margin-left: -2px;
+    margin-top: -2px;
+}
+.completed .checkbox img{
+    display: block;
+    margin-left: -2px;
+    margin-top: -2px;
+}
+
+
+
+
+
+
+
+.sun{
+    animation-name:sunmove;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sunmove {
+    from{
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+}
+to{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+}
