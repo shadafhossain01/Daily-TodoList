@@ -14,10 +14,10 @@ body{
 }
 .main-conatiner h1{
     font-weight: bold;
-    font-size: 60px;
+    font-size: 55px;
     color: #48A300;
     text-align: center;
-    margin: 40px 0px;
+    margin: 25px 0px;
 }
 .main-conatiner h1 span{
     color: #61481C;
@@ -77,7 +77,7 @@ h5{
     font-size: 14px;
     font-weight: 400;
     margin-bottom: 20px;
-    display:none;
+opacity: 0;
 }
 
 .todo-list{
@@ -115,7 +115,7 @@ input{
     outline: none;
     border: none;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 input::placeholder{
@@ -133,7 +133,7 @@ input::placeholder{
     font-weight: 500;
     color: #858585;
     font-size: 15px;
-    margin-top: 50px;
+    margin-top: 35px;
     display: inline-block;
 width: 100%;
 text-align: center;
@@ -150,10 +150,10 @@ text-align: center;
     margin-top: -2px;
 }
 
-
-
-
-
+.completed input{
+    text-decoration: line-through;
+    color: #48A300;
+}
 
 
 .sun{
